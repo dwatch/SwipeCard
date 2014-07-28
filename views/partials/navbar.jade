@@ -7,8 +7,8 @@
         span.icon-bar
         span.icon-bar
       a.navbar-brand(href='/')
-        span.ion-cube
-        | Project name
+        span.glyphicon.glyphicon-leaf
+        | Linkard
     .collapse.navbar-collapse
       ul.nav.navbar-nav
         li(class=title=='Home'?'active':undefined)
@@ -17,6 +17,18 @@
           a(href='/api') API Examples
         li(class=title=='Contact'?'active':undefined)
           a(href='/contact') Contact
+        li
+          a(href='#top') Home
+        li
+          a(href='#schools') Schools
+        li
+          a(href='#companies') Companies
+        li
+          a(href='#colleges') Colleges
+        li
+          a(href='#team') Team
+        li
+          a(href='#contact') Contact
       ul.nav.navbar-nav.navbar-right
         if !user
           li(class=title=='Login'?'active':undefined)
